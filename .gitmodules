@@ -1,0 +1,3 @@
+[submodule "QuoteScrape"]
+	path = QuoteScrape
+	url = https://github.com/ml881/QuoteScrape.git
