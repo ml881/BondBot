@@ -14,7 +14,7 @@ def buildQuote(quoteDict):
     if len(returnString) > MAX_QUOTE_LENGTH:
         filmStringSize = len(filmString)
         #plus two for the quote makes
-        remainder = (filmStringSize + 2) -MAX_QUOTE_LENGTH
+        remainder = (filmStringSize + 2) - MAX_QUOTE_LENGTH
         trimmedQuoteString = quoteString[:-remainder]
         returnString = LITERAL_QUOTE + trimmedQuoteString + LITERAL_QUOTE + filmString
 
